@@ -8,8 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "#EEE5E9",
+        black: "#171A21",
+        terracotta: "#A26769",
+        peach: "#F1BF98",
+        forest: "#6B818C",
+      },
+      fontFamily: {
+        crimson: ["Crimson Pro", "serif"],
       },
     },
   },
